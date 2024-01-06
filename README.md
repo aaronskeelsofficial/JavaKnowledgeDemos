@@ -1,0 +1,57 @@
+# Purpose
+The purpose of this repo is to act as a sort of proof-of-competence and source of notes for myself regarding industry typical Java knowledge.
+# Content Covered
+- Collections
+  - List
+  - Queue
+  - Set
+  - Map
+- Exception Handling
+  - Basics
+  - MultiCatch
+  - Finally
+  - Try-With-Resources
+  - Custom Exceptions
+- Generics
+  - Generic Methods
+  - Bounded Generics
+  - Wildcards
+  - Generic Classes
+  - Casting Error (Erroneous approach I tend to take and need to watch for)
+- IOStream
+  - Byte Streams
+  - Character Streams
+  - Specialized Native Streams
+- JDBC
+  - Basic Connection and Query
+  - Connection Pool (HikariCP)
+- JUnit
+  - Testing Basics
+  - Test Class Standards
+  - Fixtures
+  - Test Rules
+  - Test Watchers
+  - Parameterized Tests
+- Maven
+  - General Usage Notes
+- Multithreading
+  - Thread Basics
+  - Runnable Basics
+  - Sleep
+  - Join
+  - Synchronized Keyword
+  - Wait/Notify
+  - Singletons
+- OOP Principles
+  - Abstraction
+  - Interfaces
+  - Encapsulation
+  - Inheritance
+  - Polymorphism
+  - Association
+- Spring
+  - General Entry Boilerplate + Notes on all Modules
+- SQL
+  - General Basic Query Structure
+  - Table Joins
+  - Expressions (Aggregate functions + group by)
