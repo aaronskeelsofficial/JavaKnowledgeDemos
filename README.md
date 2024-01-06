@@ -1,57 +1,58 @@
 # Purpose
 The purpose of this repo is to act as a sort of proof-of-competence and source of notes for myself regarding industry typical Java knowledge.
 # Content Covered
-- Collections
-  - List
-  - Queue
-  - Set
-  - Map
-- Exception Handling
-  - Basics
-  - MultiCatch
-  - Finally
-  - Try-With-Resources
-  - Custom Exceptions
-- Generics
-  - Generic Methods
-  - Bounded Generics
-  - Wildcards
-  - Generic Classes
-  - Casting Error (Erroneous approach I tend to take and need to watch for)
-- IOStream
-  - Byte Streams
-  - Character Streams
-  - Specialized Native Streams
-- JDBC
-  - Basic Connection and Query
-  - Connection Pool (HikariCP)
-- JUnit
-  - Testing Basics
-  - Test Class Standards
-  - Fixtures
-  - Test Rules
-  - Test Watchers
-  - Parameterized Tests
-- Maven
-  - General Usage Notes
-- Multithreading
-  - Thread Basics
-  - Runnable Basics
-  - Sleep
-  - Join
-  - Synchronized Keyword
-  - Wait/Notify
-  - Singletons
-- OOP Principles
-  - Abstraction
-  - Interfaces
-  - Encapsulation
-  - Inheritance
-  - Polymorphism
-  - Association
-- Spring
-  - General Entry Boilerplate + Notes on all Modules
-- SQL
-  - General Basic Query Structure
-  - Table Joins
-  - Expressions (Aggregate functions + group by)
+- [Collections](collections/src/main/java/work/aaronskeels/javaknowledgedemos/App.java)
+  - [List](collections/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L14)
+  - [Queue](collections/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L16)
+  - [Set](collections/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L18)
+  - [Map](collections/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L20)
+- [Exception Handling](exceptionhandling/src/main/java/work/aaronskeels/javaknowledgedemos/App.java)
+  - [Basics](exceptionhandling/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L14)
+  - [MultiCatch](exceptionhandling/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L16)
+  - [Finally](exceptionhandling/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L18)
+  - [Try-With-Resources](exceptionhandling/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L20)
+  - [Custom Exceptions](exceptionhandling/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L22)
+- [Generics](generics/src/main/java/work/aaronskeels/javaknowledgedemos/App.java)
+  - [Generic Methods](generics/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L12)
+  - [Bounded Generics](generics/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L14)
+  - [Wildcards](generics/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L16)
+  - [Generic Classes](generics/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L18)
+  - [Casting Error](generics/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L20) (Erroneous approach I tend to take and need to watch for)
+- [IOStream](iostream/src/main/java/work/aaronskeels/javaknowledgedemos/App.java)
+  - [Byte Streams](iostream/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L9)
+  - [Character Streams](iostream/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L21)
+  - [Specialized Native Streams](iostream/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L34)
+- [JDBC](jdbc/src/main/java/work/aaronskeels/javaknowledgedemos/App.java)
+  - [Basic Connection and Query](jdbc/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L30)
+  - [Connection Pool](jdbc/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L70) (HikariCP)
+- [JUnit](junit/src/main/java/work/aaronskeels/javaknowledgedemos/App.java)
+  - [Testing Basics](junit/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L17)
+  - [Test Class Standards](junit/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L37)
+  - [Fixtures](junit/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L42)
+  - [Test Rules](junit/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L42)
+  - [Test Watchers](junit/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L42)
+  - [Test Suites](junit/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L57)
+  - [Parameterized Tests](junit/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L63)
+- [Maven](maven/src/main/java/work/aaronskeels/javaknowledgedemos/App.java)
+  - [General Usage Notes](maven/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L7)
+- [Multithreading](multithreading/src/main/java/work/aaronskeels/javaknowledgedemos/App.java)
+  - [Thread Basics](multithreading/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L9)
+  - [Runnable Basics](multithreading/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L11)
+  - [Sleep](multithreading/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L13)
+  - [Join](multithreading/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L15)
+  - [Synchronized Keyword](multithreading/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L17)
+  - [Wait/Notify](multithreading/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L19)
+  - [Singletons](multithreading/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L24)
+- [OOP Principles](oopprinciples/src/main/java/work/aaronskeels/javaknowledgedemos/App.java)
+  - [Abstraction](oopprinciples/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L9)
+  - [Interfaces](oopprinciples/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L11)
+  - [Encapsulation](oopprinciples/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L13)
+  - [Inheritance](oopprinciples/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L15)
+  - [Polymorphism](oopprinciples/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L17)
+  - [Association](oopprinciples/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L19)
+- [Spring](spring/src/main/java/work/aaronskeels/javaknowledgedemos/App.java)
+  - [General Entry Boilerplate + Notes on all Modules](spring/src/main/java/work/aaronskeels/javaknowledgedemos/App.java)
+- [SQL](sql/src/main/java/work/aaronskeels/javaknowledgedemos/App.java)
+  - [General Basic Query Structure](sql/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L51)
+  - [Table Joins](sql/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L52)
+  - [Expressions](sql/src/main/java/work/aaronskeels/javaknowledgedemos/App.java#L53) (Aggregate functions + group by)
